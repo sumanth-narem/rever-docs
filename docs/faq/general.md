@@ -1,0 +1,3 @@
+# General FAQ
+
+Frequently asked questions about Rever...

@@ -1,0 +1,3 @@
+# Self-Hosting FAQ
+
+Common issues and solutions...

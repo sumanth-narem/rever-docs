@@ -1,0 +1,3 @@
+# Integrations
+
+Creating custom integrations and adapters...

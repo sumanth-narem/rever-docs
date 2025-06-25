@@ -1,0 +1,3 @@
+# Authentication
+
+Details about token-based auth and refresh logic...

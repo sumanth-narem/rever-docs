@@ -1,0 +1,3 @@
+# Integrations FAQ
+
+Questions about connecting ERP and APIs...

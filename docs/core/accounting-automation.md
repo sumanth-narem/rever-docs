@@ -1,0 +1,3 @@
+# Accounting Automation
+
+Automating journal entries and syncing with accounting systems...

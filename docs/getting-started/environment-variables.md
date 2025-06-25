@@ -1,0 +1,3 @@
+# Environment Variables
+
+List and explanation of required environment variables...

@@ -1,0 +1,3 @@
+# Reporting Vulnerabilities
+
+How to responsibly disclose security issues...

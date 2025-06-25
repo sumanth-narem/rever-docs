@@ -1,0 +1,3 @@
+# Security FAQ
+
+Answers about data storage and access...

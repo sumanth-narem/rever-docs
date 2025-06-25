@@ -1,0 +1,3 @@
+# Document Tagging
+
+How documents are tagged and enriched...

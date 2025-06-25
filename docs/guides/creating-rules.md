@@ -1,0 +1,3 @@
+# Creating Rules
+
+Define rules for validating financial documents...
