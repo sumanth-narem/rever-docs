@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'ReverFin',
   tagline: 'AI Driven Finance Transformation',
-  favicon: 'img/reverLogo.svg',
+  favicon: 'img/Rever.avif',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -58,7 +58,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/reverLogo.svg',
+    image: 'img/Rever.avif',
     navbar: {
       // title: 'ReverFin',
       logo: {
