@@ -29,7 +29,7 @@ confirm whether the goods have been received.
 automatically closed because the bill moved to the next stage of
 approval without confirmation.
 
-![Rever Setup](/img/productScreens/Goods%20Confirmation.jpg)
+![Rever Setup](/img/productScreens/Goods%20confirmation.jpg)
 
 Revoke Status Details **:**
 The **Revoked** status helps members track tasks that were not confirmed by the Lite User. This ensures visibility on which bills proceeded to approval without goods
