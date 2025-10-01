@@ -5,26 +5,23 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'ReverFin',
-  tagline: 'AI Driven Finance Transformation',
-  favicon: 'img/Rever.avif',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
+  title: 'Rever',
+  tagline: 'Open Source Finance Automation Tool',
+  favicon: 'img/favicon.ico.svg',
   // Set the production url of your site here
   url: 'https://reverfin.ai/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Reverfin', // Usually your GitHub org/user name.
-  projectName: 'Reverfin', // Usually your repo name.
-
+  projectName: 'docs', // Usually your repo name.
+  //Broken links
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -41,40 +38,65 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'docs',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/makerever/rever',
+          include: ["**/*.md", "**/*.mdx"],
         },
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          lastmod: "date",
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/Rever.avif',
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+    metadata: [
+      {
+        name: "keywords",
+        content: "open source, finance automation, document extraction, reconciliation, three way matching, 3 way matching, accounts payable, ap automation",
+      }
+    ],
     navbar: {
-      // title: 'ReverFin',
+      title: '',
       logo: {
         alt: 'ReverFin Logo',
         src: 'img/ReverLogo.avif',
         href: 'https://reverfin.ai/',
       },
       items: [
-        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/makerever/rever',
-          label: 'GitHub',
-          position: 'right',
+          type: "search",
+          position: "left",
+        },
+        {
+          href: "https://github.com/makerever/rever",
+          "aria-label": "GitHub",
+          position: "right",
+          className: "navbar--github-link",
+        },
+        {
+          href: "https://app.reverfin.ai/",
+          label: "Sign in",
+          position: "right",
         },
       ],
     },
+    footer: {},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
