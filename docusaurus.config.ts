@@ -75,7 +75,8 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'ReverFin Logo',
-        src: 'img/ReverLogo.avif',
+        src: 'img/reverblack.svg',
+        srcDark: 'img/reverwhite.svg',
         href: 'https://reverfin.ai/',
       },
       items: [

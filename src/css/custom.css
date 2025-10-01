@@ -26,18 +26,18 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #0aba68;
-  --ifm-color-primary-dark: #0aba68;
+  --ifm-color-primary: #77EB3D;
+  --ifm-color-primary-dark: #77EB3D;
   /* Darker shade */
-  --ifm-color-primary-darker: #0aba68;
+  --ifm-color-primary-darker: #77EB3D;
   /* Even darker */
-  --ifm-color-primary-darkest: #0aba68;
+  --ifm-color-primary-darkest: #77EB3D;
   /* Darkest */
-  --ifm-color-primary-light: #0aba68;
+  --ifm-color-primary-light: #77EB3D;
   /* Lighter shade */
-  --ifm-color-primary-lighter: #0aba68;
+  --ifm-color-primary-lighter: #77EB3D;
   /* Even lighter */
-  --ifm-color-primary-lightest: #0aba68;
+  --ifm-color-primary-lightest: #77EB3D;
   /* Lightest */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   /* --ifm-navbar-height: 72px; */
@@ -131,6 +131,7 @@
   font-weight: 600;
   transition: color 0.25s;
   color: #0aba68;
+  /* color: #77EB3D; */
   font-size: 13px;
   border-left-style: solid;
   border-left-width: 4px;
@@ -138,15 +139,15 @@
 }
 
 [data-theme="dark"] .menu__link--active:not(.menu__link--sublist) {
-  color: #0aba68;
+  color: #77EB3D;
 }
 
 [data-theme="dark"] .breadcrumbs__item--active .breadcrumbs__link {
-  color: #0aba68;
+  color: #77EB3D;
 }
 
 [data-theme="dark"] a {
-  color: #0aba68;
+  color: #77EB3D;
 }
 
 .menu__link--active:is(.theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible > .menu__link--sublist) {
@@ -321,10 +322,10 @@ h6 {
 }
 
 
-#__docusaurus>nav>div.navbar__inner>div.navbar__items.navbar__items--right>a:nth-child(3) {
+#__docusaurus>nav>div.navbar__inner>div.navbar__items.navbar__items--right>a:nth-child(2) {
   background-color: #0aba68;
-  border-radius: 8px;
-  color: #f3f5f7;
+  border-radius: 40px;
+  color: #1a1a1a;
   font-size: 0.75rem;
   font-weight: 500;
   margin-left: 0.5rem;
@@ -335,8 +336,8 @@ h6 {
   line-height: 1.25rem;
 }
 
-[data-theme="dark"] #__docusaurus>nav>div.navbar__inner>div.navbar__items.navbar__items--right>a:nth-child(3) {
-  background-color: #0aba68;
+[data-theme="dark"] #__docusaurus>nav>div.navbar__inner>div.navbar__items.navbar__items--right>a:nth-child(2) {
+  background-color: #77EB3D;
 }
 
 #__docusaurus>nav>div.navbar__inner>div.navbar__items.navbar__items--right>a>svg {
@@ -477,7 +478,7 @@ html[data-theme="dark"] .one {
 }
 
 .card:hover {
-  border: 1px solid #0aba68;
+  border: 1px solid #77EB3D;
 }
 
 .card-icon {
@@ -489,11 +490,11 @@ html[data-theme="dark"] .one {
 }
 
 .icon-style {
-  color: #0aba68;
+  color: #77EB3D;
 }
 
 [data-theme="dark"] .icon-style {
-  color: #0aba68;
+  color: #77EB3D;
 }
 
 

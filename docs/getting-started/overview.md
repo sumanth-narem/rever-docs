@@ -1,3 +1,0 @@
-# Getting Started with Rever
-
-Understand how to deploy Rever...
