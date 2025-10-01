@@ -20,7 +20,7 @@ The **General** page allows you to configure your organization’s basic profile
     - City
     - ZIP Code
 
-![Rever Setup](/img/productScreens/General%20Settings.jpg)
+![Rever Setup](/img/productScreens/General%20settings.jpg)
 
 :::tip
 Keep this information updated
